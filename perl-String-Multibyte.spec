@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Multibyte
+%define		pdir	String
+%define		pnam	Multibyte
 Summary:	String::Multibyte - Perl module to manipulate multibyte character strings
 Summary(pl):	String::Multibyte - modu³ Perla do obróbki ³añcuchów znaków wielobajtowych
 Name:		perl-String-Multibyte
