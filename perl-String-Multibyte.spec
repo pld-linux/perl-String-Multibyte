@@ -31,7 +31,7 @@ funkcje CORE, s³u¿±cych do obróbki ³añcuchów znaków wielobajtowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
