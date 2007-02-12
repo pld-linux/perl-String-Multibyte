@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Multibyte
 Summary:	String::Multibyte - Perl module to manipulate multibyte character strings
-Summary(pl):	String::Multibyte - modu³ Perla do obróbki ³añcuchów znaków wielobajtowych
+Summary(pl.UTF-8):   String::Multibyte - moduÅ‚ Perla do obrÃ³bki Å‚aÅ„cuchÃ³w znakÃ³w wielobajtowych
 Name:		perl-String-Multibyte
 Version:	1.05
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module provides some functions which emulate the corresponding
 CORE functions to manipulate multiple-byte character strings.
 
-%description -l pl
-Ten modu³ udostêpnia trochê funkcji emuluj±cych odpowiadaj±ce im
-funkcje CORE, s³u¿±cych do obróbki ³añcuchów znaków wielobajtowych.
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia trochÄ™ funkcji emulujÄ…cych odpowiadajÄ…ce im
+funkcje CORE, sÅ‚uÅ¼Ä…cych do obrÃ³bki Å‚aÅ„cuchÃ³w znakÃ³w wielobajtowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
