@@ -8,13 +8,13 @@
 Summary:	String::Multibyte - Perl module to manipulate multibyte character strings
 Summary(pl.UTF-8):	String::Multibyte - moduł Perla do obróbki łańcuchów znaków wielobajtowych
 Name:		perl-String-Multibyte
-Version:	1.10
+Version:	1.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	82821825e95ed2e608b2a687a95c8189
+# Source0-md5:	c1f639959879f8ae036daf3240767d63
 URL:		http://search.cpan.org/dist/String-Multibyte/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
