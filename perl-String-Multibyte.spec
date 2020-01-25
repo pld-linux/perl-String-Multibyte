@@ -4,7 +4,6 @@
 
 %define		pdir	String
 %define		pnam	Multibyte
-%include	/usr/lib/rpm/macros.perl
 Summary:	String::Multibyte - Perl module to manipulate multibyte character strings
 Summary(pl.UTF-8):	String::Multibyte - moduł Perla do obróbki łańcuchów znaków wielobajtowych
 Name:		perl-String-Multibyte
